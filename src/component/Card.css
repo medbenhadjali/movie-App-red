@@ -1,0 +1,47 @@
+.card-container{
+    position: relative;
+    border:4px solid white;
+    width:300px;
+    height: 500px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+.image-container{
+    /* position: absolute; */
+    width :100%;
+    height: 60%;
+}
+.img-card{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 20px;
+
+    /* margin-bottom:30px ; */
+
+}
+.description-container{
+    /* display: flex;
+    align-items: center; */
+    margin-top:30px;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    flex-direction: column;
+}
+.button-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+.titre{
+    text-align: center;
+}
+.bts{
+    background-color:white;
+    border:2px solid black;
+    border-radius: 4px;
+}
